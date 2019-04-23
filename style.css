@@ -1,0 +1,15 @@
+
+
+#header {
+  background-color: #e5b195;
+  width: 100%;
+  height: 15%
+}
+
+#app {
+  border: 1px solid lightgray;
+  min-height: 600px;
+  width: 80%;
+  height: 600px;
+  left: 10%;
+}

@@ -1,26 +1,31 @@
 <html>
+
 <head>
-    <script src="script.js"></script>
+  <link rel="stylesheet" type="text/css" href="style.css">
 </head>
+
 <body>
-    <div class="panel-body">
-    <div id="app" class="panel" style="border: 1px solid lightgray; min-height: 800px;"></div>
-</div>
+  <div id="header"></div>
 
-<script type="module">
+
+
+  <!-- Verovio Viewer -->
+  <div class="panel-body">
+    <div id="app" class="panel"></div>
+  </div>
+
+  <script type="module">
     import 'https://www.verovio.org/javascript/app/verovio-app.js';
-
     // Create the app - here with an empty option object
     const app = new Verovio.App(document.getElementById("app"), {});
-
     // Load a file (MEI or MusicXML)
     fetch("https://www.verovio.org/editor/brahms.mei")
         .then(function(response) {
-            return response.text();
-        })
-        .then(function(text) {
+          return response.text();
+        }).then(function(text) {
             app.loadData(text);
         });
-</script> 
+</script>
 </body>
+
 </html>
