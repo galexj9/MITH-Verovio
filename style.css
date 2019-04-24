@@ -10,6 +10,10 @@
   border: 1px solid lightgray;
   min-height: 600px;
   width: 80%;
-  height: 600px;
-  left: 10%;
+  height: 40%;
+  display: inline-block;
+}
+
+.panel-body {
+  text-align: center;
 }
