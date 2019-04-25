@@ -1,4 +1,4 @@
-.header {
+#header {
   background-color: #e5b195;
   width: 100%;
   height: 15%
@@ -7,6 +7,10 @@
 .panel-body {
   text-align: center;
   padding: 10px;
+}
+
+#Verovio-Viewer {
+  height: 40%;
 }
 
 #app {
