@@ -11,15 +11,13 @@
 
 #app {
   border: 1px solid lightgray;
-  min-height: 600px;
   width: 80%;
   height: 40%;
   display: inline-block;
-  position: relative;
+  /*position: relative; */
 }
 
 section {
-  min-height: 250px;
   height: 25%;
   background-color: #e8e8e8;
   border: 2px solid gray;
