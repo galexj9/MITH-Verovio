@@ -4,7 +4,7 @@ const app = new Verovio.App(document.getElementById("app"), {});
 // Load a file (MEI or MusicXML)
 //temporarily disabled so the website loads faster while working on it
 
-fetch("./data/Chopin-Mazurka.mei")
+fetch("./data/Nocturne72EditedV3.mei")
     .then(function(response) {
       return response.text();
     }).then(function(text) {
@@ -12,4 +12,4 @@ fetch("./data/Chopin-Mazurka.mei")
     });
 
 //promises
-//fetching or redawing 
+//fetching or redawing
