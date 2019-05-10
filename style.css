@@ -1,34 +1,31 @@
-#header {
-  background-color: #e5b195;
-  width: 100%;
-  height: 15%
-}
 
-.panel-body {
+#vrvWrapper {
   text-align: center;
-  padding: 10px;
 }
 
-#Verovio-Viewer {
-  height: 40%;
-}
-
-#app {
-  border: 1px solid lightgray;
-  width: 80%;
-  height: 40%;
+#output {
   display: inline-block;
-  /*position: relative; */
 }
 
-section {
-  height: 25%;
-  background-color: #e8e8e8;
-  border: 2px solid gray;
-  text-align: center;
+
+/** Pinter's Additions Button **/
+a {
+  background: #ccc;
+  cursor: pointer;
+  border-top: solid 2px #eaeaea;
+  border-left: solid 2px #eaeaea;
+  border-bottom: solid 2px #777;
+  border-right: solid 2px #777;
+  padding: 5px 5px;
+  top: 10px;
+  margin: 10px;
+  position: relative;
 }
 
-body {
-  background-color: #e8e8e8;
-  font-family: serif;
+a.down {
+  background: #bbb;
+  border-top: solid 2px #777;
+  border-left: solid 2px #777;
+  border-bottom: solid 2px #eaeaea;
+  border-right: solid 2px #eaeaea;
 }
