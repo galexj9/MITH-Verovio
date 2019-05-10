@@ -43,7 +43,7 @@ function paintPeds() {
 
 $(document).ready(function() {
   //verovio file loading
-  var file = "/data/nocturne.mei";
+  var file = "data/nocturne.mei";
   $.ajax({
     url: file,
     dataType: "text",
