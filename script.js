@@ -19,7 +19,7 @@ function setOptions() {
   vrvToolkit.setOptions(options);
 }
 
-/* A function that sets the options, loads the data and render the first page */
+/* A function that sets the options, loads the data and renders the first page */
 function loadData(data) {
   setOptions();
   vrvToolkit.loadData(data);
@@ -52,20 +52,22 @@ function play_midi() {
 function playMIDIString(string) {
   MIDI.loadPlugin({
     soundfontUrl: "MIDI/examples/soundfont/",
-    onprogress: function(state, progress) {},
+    instruments: 'acoustic_grand_piano',
     onsuccess: function() {
-      /// this sets up the MIDI.Player and gets things going...
-      MIDI.Player.loadFile( "data:audio/midi;base64," + string, MIDI.Player.start);
+      var player = MIDI.Player;
+      player.loadFile("data:audio/midi;base64," + string, function() {
+        MIDI.AudioTag.setVolume(0, 127);
+        MIDI.AudioTag.setVolume(1, 127);
+        MIDI.channel = 1;
+        player.start();
+      });
     }
   });
 }
 
 $(document).ready(function() {
   //verovio file loading
-  var file = "data/nocturne.mei";
-  jQuery.get(file).then(function(data) {
-    loadData(data)
-  });
+  $.get("/data/nocturne.mei").then((data) => loadData(data));
 
   //toggle button
   $('a#button1').click(function() {
