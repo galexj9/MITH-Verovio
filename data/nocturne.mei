@@ -73,17 +73,27 @@
                                     </beam>
                                 </layer>
                             </staff>
+                            <choice>
+                              <orig>
+                                <pedal xml:id="pedal-0000000519977329" staff="2" startid="#note-0000001764535589" dir="down" place="below" />
+                                <pedal xml:id="pedal-0000001650679264" staff="2" startid="#note-0000001859421263" dir="up" place="below" />
+                                <pedal xml:id="pedal-0000001024132435" staff="2" startid="#note-0000002025470603" dir="down" place="below" />
+                                <pedal xml:id="pedal-0000001237996299" staff="2" startid="#note-0000000984804984" dir="up" place="below" />
+                              </orig>
+                              <reg>
+                                <pedal xml:id="pedal-0000000519977329" staff="2" startid="#note-0000001764535589" dir="down" place="below" />
+                                <pedal xml:id="pedal-0000001024132435" staff="2" startid="#note-0000002025470603" dir="down" place="below" />
+                              </reg>
+                            </choice>
+
+
                             <tempo xml:id="tempo-0000000739890310" place="above" staff="1" startid="#mrest-0000000329258031" midi.bpm="69">
                                 <rend xml:id="rend-0000001243346820" fontfam="Times New Roman" fontweight="bold">Andante</rend>
                             </tempo>
                             <tempo xml:id="tempo-0000000405512530" place="above" staff="1" startid="#mrest-0000000329258031" mm="69" mm.unit="4">M.M. = 69</tempo>
                             <dynam xml:id="dynam-0000001485225884" place="above" staff="2" startid="#note-0000001764535589">p</dynam>
-                            <pedal xml:id="pedal-0000000519977329" staff="2" startid="#note-0000001764535589" dir="down" place="below" />
                             <slur xml:id="slur-0000002025257587" startid="#note-0000001764535589" endid="#note-0000000343790549" curvedir="above" />
-                            <pedal xml:id="pedal-0000001650679264" staff="2" startid="#note-0000001859421263" dir="up" place="below" />
-                            <pedal xml:id="pedal-0000001024132435" staff="2" startid="#note-0000002025470603" dir="down" place="below" />
                             <slur xml:id="slur-0000000259077062" startid="#note-0000002025470603" endid="#note-0000000571817844" curvedir="above" />
-                            <pedal xml:id="pedal-0000001237996299" staff="2" startid="#note-0000000984804984" dir="up" place="below" />
                         </measure>
                         <measure xml:id="measure-0000000058189879" n="2">
                             <staff xml:id="staff-0000001231732790" n="1">
@@ -584,7 +594,7 @@
                             </staff>
                             <hairpin xml:id="hairpin-0000001400722033" staff="1" startid="#note-0000000727439106" endid="#note-0000000957483762" form="cres" place="below" />
                             <slur xml:id="slur-0000001852018589" startid="#note-0000000727439106" endid="#chord-0000000152001908" curvedir="below" />
-                            <tempo xml:id="tempo-0000000729303452" place="above" staff="1" startid="#note-0000000957483762" midi.bpm="55">
+                            <tempo xml:id="tempo-0000000729303452" place="above" staff="1" startid="#note-0000000957483762" midi.bpm="69">
                                 <rend xml:id="rend-0000000564322203" fontfam="Times New Roman" fontstyle="italic" fontweight="bold">rit.</rend>
                             </tempo>
                             <pedal xml:id="pedal-0000000590550323" staff="2" startid="#note-0000000166055940" dir="down" place="below" />
@@ -643,7 +653,7 @@
                                     </beam>
                                 </layer>
                             </staff>
-                            <tempo xml:id="tempo-0000000996823219" place="above" staff="1" startid="#chord-0000000152001908" midi.bpm="60">
+                            <tempo xml:id="tempo-0000000996823219" place="above" staff="1" startid="#chord-0000000152001908" midi.bpm="69">
                                 <rend xml:id="rend-0000002111778832" fontfam="Times New Roman" fontstyle="italic" fontweight="bold">a tempo</rend>
                             </tempo>
                             <slur xml:id="slur-0000001075701667" startid="#chord-0000000152001908" endid="#chord-0000001282629607" curvedir="above" />
@@ -1113,394 +1123,6 @@
                             <pedal xml:id="pedal-0000001436310986" staff="2" startid="#note-0000000827700383" dir="down" place="below" />
                             <slur xml:id="slur-0000000691657256" startid="#note-0000000827700383" endid="#note-0000000017242911" curvedir="above" />
                             <pedal xml:id="pedal-0000001658797917" staff="2" startid="#note-0000000017242911" dir="up" place="below" />
-                        </measure>
-                        <measure xml:id="measure-0000001686100795" n="17">
-                            <staff xml:id="staff-0000001373851084" n="1">
-                                <layer xml:id="layer-0000000422345985" n="1">
-                                    <chord xml:id="chord-0000001020958802" dur.ppq="960" dur="2" stem.dir="up">
-                                        <note xml:id="note-0000000066346389" oct="4" pname="f">
-                                            <accid xml:id="accid-0000001311304440" accid="s" accid.ges="s" />
-                                        </note>
-                                        <note xml:id="note-0000000076495080" oct="4" pname="a" />
-                                    </chord>
-                                    <note xml:id="note-0000000015333511" dur.ppq="480" dur="4" oct="4" pname="b" stem.dir="up" />
-                                    <chord xml:id="chord-0000000906961328" dur.ppq="480" dur="4" stem.dir="up">
-                                        <note xml:id="note-0000002053510438" oct="4" pname="b" />
-                                        <note xml:id="note-0000000001839805" oct="5" pname="c">
-                                            <accid xml:id="accid-0000000143477380" accid="s" accid.ges="s" />
-                                        </note>
-                                    </chord>
-                                </layer>
-                                <layer xml:id="layer-0000000933973503" n="2">
-                                    <note xml:id="note-0000000023322793" dur.ppq="480" dur="4" oct="4" pname="b" stem.dir="down" />
-                                    <beam xml:id="beam-0000000785485916">
-                                        <note xml:id="note-0000002107808175" dur.ppq="240" dur="8" oct="4" pname="b" stem.dir="down" />
-                                        <note xml:id="note-0000000265816521" dur.ppq="240" dur="8" oct="4" pname="b" stem.dir="down" />
-                                    </beam>
-                                    <note xml:id="note-0000000672321233" dur.ppq="960" dur="2" oct="4" pname="g" stem.dir="down" />
-                                </layer>
-                            </staff>
-                            <staff xml:id="staff-0000001856183857" n="2">
-                                <layer xml:id="layer-0000002003365692" n="5">
-                                    <beam xml:id="beam-0000001298817523">
-                                        <tuplet xml:id="tuplet-0000000845239695" num="3" numbase="2" num.visible="false" bracket.visible="false">
-                                            <note xml:id="note-0000002078739983" dur.ppq="160" dur="8" oct="2" pname="d" stem.dir="up">
-                                                <accid xml:id="accid-0000001676917192" accid="s" accid.ges="s" />
-                                            </note>
-                                            <note xml:id="note-0000001761939750" dur.ppq="160" dur="8" oct="3" pname="d" stem.dir="up">
-                                                <accid xml:id="accid-0000000839341602" accid="s" accid.ges="s" />
-                                            </note>
-                                            <note xml:id="note-0000000742913519" dur.ppq="160" dur="8" oct="3" pname="f" stem.dir="up">
-                                                <accid xml:id="accid-0000000367726286" accid="s" accid.ges="s" />
-                                            </note>
-                                        </tuplet>
-                                    </beam>
-                                    <beam xml:id="beam-0000001872821759">
-                                        <tuplet xml:id="tuplet-0000001545855891" num="3" numbase="2" num.visible="false" bracket.visible="false">
-                                            <note xml:id="note-0000001247476231" dur.ppq="160" dur="8" oct="3" pname="b" stem.dir="down" />
-                                            <note xml:id="note-0000001997202417" dur.ppq="160" dur="8" oct="4" pname="g" stem.dir="down" />
-                                            <note xml:id="note-0000000999627155" dur.ppq="160" dur="8" oct="4" pname="f" stem.dir="down" accid.ges="s" />
-                                        </tuplet>
-                                    </beam>
-                                    <beam xml:id="beam-0000001660268025">
-                                        <tuplet xml:id="tuplet-0000000369557245" num="3" numbase="2" num.visible="false" bracket.visible="false">
-                                            <note xml:id="note-0000000444747104" dur.ppq="160" dur="8" oct="2" pname="e" stem.dir="up" />
-                                            <note xml:id="note-0000001520125808" dur.ppq="160" dur="8" oct="3" pname="e" stem.dir="up" />
-                                            <note xml:id="note-0000001549656043" dur.ppq="160" dur="8" oct="3" pname="g" stem.dir="up" />
-                                        </tuplet>
-                                    </beam>
-                                    <beam xml:id="beam-0000001359224506">
-                                        <tuplet xml:id="tuplet-0000001801850876" num="3" numbase="2" num.visible="false" bracket.visible="false">
-                                            <note xml:id="note-0000001769924983" dur.ppq="160" dur="8" oct="3" pname="b" stem.dir="down" />
-                                            <note xml:id="note-0000001002654074" dur.ppq="160" dur="8" oct="4" pname="g" stem.dir="down" />
-                                            <note xml:id="note-0000000862701021" dur.ppq="160" dur="8" oct="4" pname="e" stem.dir="down" />
-                                        </tuplet>
-                                    </beam>
-                                </layer>
-                            </staff>
-                            <pedal xml:id="pedal-0000000775743419" staff="2" startid="#note-0000002078739983" dir="down" place="below" />
-                            <slur xml:id="slur-0000000677518114" startid="#note-0000000742913519" endid="#note-0000000999627155" curvedir="above" />
-                            <pedal xml:id="pedal-0000002112779050" staff="2" startid="#note-0000001997202417" dir="up" place="below" />
-                            <pedal xml:id="pedal-0000001152393244" staff="2" startid="#note-0000000444747104" dir="down" place="below" />
-                            <slur xml:id="slur-0000000400020920" startid="#note-0000001549656043" endid="#note-0000000862701021" curvedir="above" />
-                            <pedal xml:id="pedal-0000002132840596" staff="1" startid="#chord-0000001785985411" dir="up" place="below" />
-                        </measure>
-                        <measure xml:id="measure-0000001427273799" n="18">
-                            <staff xml:id="staff-0000000976350375" n="1">
-                                <layer xml:id="layer-0000001936090732" n="1">
-                                    <chord xml:id="chord-0000001785985411" dur.ppq="960" dur="2" stem.dir="up">
-                                        <note xml:id="note-0000000685119222" oct="4" pname="b" />
-                                        <note xml:id="note-0000001634879096" oct="5" pname="d">
-                                            <accid xml:id="accid-0000000402199133" accid="n" />
-                                        </note>
-                                    </chord>
-                                    <note xml:id="note-0000001103914397" dur.ppq="960" dur="2" oct="5" pname="c" stem.dir="up">
-                                        <accid xml:id="accid-0000001845445880" accid="s" accid.ges="s" />
-                                    </note>
-                                </layer>
-                                <layer xml:id="layer-0000001436752875" n="2">
-                                    <note xml:id="note-0000001967600884" dur.ppq="480" dur="4" oct="4" pname="f" stem.dir="down" accid.ges="s" />
-                                    <rest xml:id="rest-0000001509786639" dur.ppq="480" dur="4" />
-                                    <note xml:id="note-0000001720551107" dur.ppq="480" dur="4" oct="4" pname="b" stem.dir="down" />
-                                    <note xml:id="note-0000001892845477" dur.ppq="480" dur="4" oct="4" pname="a" stem.dir="down">
-                                        <accid xml:id="accid-0000001639039248" accid="s" accid.ges="s" />
-                                    </note>
-                                </layer>
-                            </staff>
-                            <staff xml:id="staff-0000000018480910" n="2">
-                                <layer xml:id="layer-0000000784411622" n="5">
-                                    <beam xml:id="beam-0000000313652205">
-                                        <tuplet xml:id="tuplet-0000001212088372" num="3" numbase="2" num.visible="false" bracket.visible="false">
-                                            <note xml:id="note-0000001739086469" dur.ppq="160" dur="8" oct="2" pname="f" stem.dir="down" accid.ges="s" />
-                                            <note xml:id="note-0000001893556520" dur.ppq="160" dur="8" oct="3" pname="f" stem.dir="down" accid.ges="s" />
-                                            <note xml:id="note-0000001550607432" dur.ppq="160" dur="8" oct="4" pname="d" stem.dir="down" />
-                                        </tuplet>
-                                    </beam>
-                                    <beam xml:id="beam-0000001403938328">
-                                        <tuplet xml:id="tuplet-0000001869157828" num="3" numbase="2" num.visible="false" bracket.visible="false">
-                                            <note xml:id="note-0000001334889321" dur.ppq="160" dur="8" oct="3" pname="b" stem.dir="down" />
-                                            <note xml:id="note-0000000013118127" dur.ppq="160" dur="8" oct="4" pname="g" stem.dir="down" />
-                                            <note xml:id="note-0000001126460829" dur.ppq="160" dur="8" oct="4" pname="f" stem.dir="down" accid.ges="s" />
-                                        </tuplet>
-                                    </beam>
-                                    <beam xml:id="beam-0000000815277677">
-                                        <tuplet xml:id="tuplet-0000000812369005" num="3" numbase="2" num.visible="false" bracket.visible="false">
-                                            <note xml:id="note-0000000067956315" dur.ppq="160" dur="8" oct="2" pname="f" stem.dir="down" accid.ges="s" />
-                                            <note xml:id="note-0000001745713051" dur.ppq="160" dur="8" oct="3" pname="f" stem.dir="down" accid.ges="s" />
-                                            <note xml:id="note-0000001777573972" dur.ppq="160" dur="8" oct="4" pname="d" stem.dir="down" />
-                                        </tuplet>
-                                    </beam>
-                                    <beam xml:id="beam-0000000199225993">
-                                        <tuplet xml:id="tuplet-0000001012130468" num="3" numbase="2" num.visible="false" bracket.visible="false">
-                                            <note xml:id="note-0000000261490733" dur.ppq="160" dur="8" oct="4" pname="c" stem.dir="down">
-                                                <accid xml:id="accid-0000002086855880" accid="s" accid.ges="s" />
-                                            </note>
-                                            <note xml:id="note-0000000820308004" dur.ppq="160" dur="8" oct="4" pname="g" stem.dir="down" />
-                                            <note xml:id="note-0000001126823549" dur.ppq="160" dur="8" oct="4" pname="f" stem.dir="down" accid.ges="s" />
-                                        </tuplet>
-                                    </beam>
-                                </layer>
-                            </staff>
-                            <dynam xml:id="dynam-0000000715971152" place="below" staff="1" startid="#chord-0000001785985411">f</dynam>
-                            <slur xml:id="slur-0000001472884976" startid="#chord-0000001785985411" endid="#note-0000001488112648" curvedir="above" />
-                            <hairpin xml:id="hairpin-0000001674081447" staff="1" startid="#note-0000001103914397" endid="#note-0000001720551107" form="dim" place="below" />
-                            <pedal xml:id="pedal-0000000073962852" staff="2" startid="#note-0000001739086469" dir="down" place="below" />
-                            <slur xml:id="slur-0000001404219327" startid="#note-0000001739086469" endid="#note-0000001126460829" curvedir="above" />
-                            <pedal xml:id="pedal-0000002075650662" staff="2" startid="#note-0000000013118127" dir="up" place="below" />
-                            <pedal xml:id="pedal-0000001139453738" staff="2" startid="#note-0000000067956315" dir="down" place="below" />
-                            <slur xml:id="slur-0000000702325049" startid="#note-0000000067956315" endid="#note-0000001126823549" curvedir="above" />
-                            <pedal xml:id="pedal-0000000571888356" staff="2" startid="#note-0000000820308004" dir="up" place="below" />
-                        </measure>
-                        <sb xml:id="sb-0000001235822220" />
-                        <measure xml:id="measure-0000001848148582" n="19">
-                            <staff xml:id="staff-0000001477148588" n="1">
-                                <layer xml:id="layer-0000000690364840" n="1">
-                                    <note xml:id="note-0000000296294302" dur.ppq="960" dur="2" oct="5" pname="d" stem.dir="up">
-                                        <accid xml:id="accid-0000000433400551" accid="s" accid.ges="s" />
-                                    </note>
-                                    <note xml:id="note-0000001562222817" dur.ppq="480" dur="4" oct="5" pname="e" stem.dir="up" />
-                                    <note xml:id="note-0000001488112648" dur.ppq="480" dur="4" oct="4" pname="b" stem.dir="up" />
-                                </layer>
-                                <layer xml:id="layer-0000000586482205" n="2">
-                                    <note xml:id="note-0000001256475640" dur.ppq="960" dur="2" oct="4" pname="a" stem.dir="down">
-                                        <accid xml:id="accid-0000001407103284" accid="n" />
-                                        <artic xml:id="artic-0000000004185416" artic="acc" />
-                                    </note>
-                                    <note xml:id="note-0000001706029307" dur.ppq="960" dur="2" oct="4" pname="g" stem.dir="down" />
-                                </layer>
-                            </staff>
-                            <staff xml:id="staff-0000000336321935" n="2">
-                                <layer xml:id="layer-0000000604045000" n="5">
-                                    <beam xml:id="beam-0000000805107756">
-                                        <tuplet xml:id="tuplet-0000000500517806" num="3" numbase="2" num.visible="false" bracket.visible="false">
-                                            <note xml:id="note-0000000371168773" dur.ppq="160" dur="8" oct="1" pname="b" stem.dir="up" />
-                                            <note xml:id="note-0000001411243527" dur.ppq="160" dur="8" oct="2" pname="b" stem.dir="up" />
-                                            <note xml:id="note-0000000204326462" dur.ppq="160" dur="8" oct="3" pname="f" stem.dir="up" accid.ges="s" />
-                                        </tuplet>
-                                    </beam>
-                                    <beam xml:id="beam-0000001905529429">
-                                        <tuplet xml:id="tuplet-0000000443397950" num="3" numbase="2" num.visible="false" bracket.visible="false">
-                                            <note xml:id="note-0000000739697155" dur.ppq="160" dur="8" oct="3" pname="b" stem.dir="down" />
-                                            <note xml:id="note-0000000223797058" dur.ppq="160" dur="8" oct="4" pname="g" stem.dir="down" />
-                                            <note xml:id="note-0000001272304903" dur.ppq="160" dur="8" oct="4" pname="f" stem.dir="down" accid.ges="s" />
-                                        </tuplet>
-                                    </beam>
-                                    <beam xml:id="beam-0000002006377911">
-                                        <tuplet xml:id="tuplet-0000000995576043" num="3" numbase="2" num.visible="false" bracket.visible="false">
-                                            <note xml:id="note-0000001541414023" dur.ppq="160" dur="8" oct="2" pname="e" stem.dir="up" />
-                                            <note xml:id="note-0000000366870155" dur.ppq="160" dur="8" oct="2" pname="b" stem.dir="up" />
-                                            <note xml:id="note-0000000770142811" dur.ppq="160" dur="8" oct="3" pname="g" stem.dir="up" />
-                                        </tuplet>
-                                    </beam>
-                                    <beam xml:id="beam-0000000534122825">
-                                        <tuplet xml:id="tuplet-0000001182842896" num="3" numbase="2" num.visible="false" bracket.visible="false">
-                                            <note xml:id="note-0000001936254725" dur.ppq="160" dur="8" oct="3" pname="b" stem.dir="down" />
-                                            <note xml:id="note-0000000589434496" dur.ppq="160" dur="8" oct="4" pname="f" stem.dir="down" accid.ges="s" />
-                                            <note xml:id="note-0000000846227734" dur.ppq="160" dur="8" oct="4" pname="e" stem.dir="down" />
-                                        </tuplet>
-                                    </beam>
-                                </layer>
-                            </staff>
-                            <hairpin xml:id="hairpin-0000000599845281" staff="1" startid="#note-0000001488112648" endid="#note-0000001488112648" form="dim" place="below" />
-                            <pedal xml:id="pedal-0000001457370105" staff="2" startid="#note-0000000371168773" dir="down" place="below" />
-                            <slur xml:id="slur-0000000499099805" startid="#note-0000000371168773" endid="#note-0000001411243527" curvedir="below" />
-                            <hairpin xml:id="hairpin-0000002067520375" staff="2" startid="#note-0000001411243527" endid="#note-0000001411243527" form="dim" place="above" />
-                            <slur xml:id="slur-0000000124942023" startid="#note-0000000204326462" endid="#note-0000001272304903" curvedir="above" />
-                            <pedal xml:id="pedal-0000001332924674" staff="2" startid="#note-0000000223797058" dir="up" place="below" />
-                            <pedal xml:id="pedal-0000002064848782" staff="2" startid="#note-0000001541414023" dir="down" place="below" />
-                            <slur xml:id="slur-0000001046005890" startid="#note-0000001541414023" endid="#note-0000000846227734" curvedir="above" />
-                            <pedal xml:id="pedal-0000000610445517" staff="2" startid="#note-0000000589434496" dir="up" place="below" />
-                        </measure>
-                        <measure xml:id="measure-0000000550841051" n="20">
-                            <staff xml:id="staff-0000000069222630" n="1">
-                                <layer xml:id="layer-0000000096702896" n="1">
-                                    <note xml:id="note-0000000744147817" dur.ppq="960" dur="2" oct="4" pname="a" stem.dir="up">
-                                        <accid xml:id="accid-0000000441294981" accid="s" accid.ges="s" />
-                                    </note>
-                                    <note xml:id="note-0000000267919548" dur.ppq="960" dur="2" oct="4" pname="b" stem.dir="up" />
-                                </layer>
-                                <layer xml:id="layer-0000000351461543" n="2">
-                                    <note xml:id="note-0000000273968972" dur.ppq="480" dur="4" oct="4" pname="g" stem.dir="down" />
-                                    <beam xml:id="beam-0000001544841876">
-                                        <note xml:id="note-0000000734943234" dur.ppq="240" dur="8" oct="4" pname="f" stem.dir="down" accid.ges="s" />
-                                        <note xml:id="note-0000002042118824" dur.ppq="240" dur="8" oct="4" pname="e" stem.dir="down" />
-                                    </beam>
-                                    <note xml:id="note-0000001053850260" dur.ppq="960" dur="2" oct="4" pname="d" stem.dir="down" />
-                                </layer>
-                            </staff>
-                            <staff xml:id="staff-0000000075455611" n="2">
-                                <layer xml:id="layer-0000001331903963" n="5">
-                                    <beam xml:id="beam-0000002045159754">
-                                        <tuplet xml:id="tuplet-0000000857583721" num="3" numbase="2" num.visible="false" bracket.visible="false">
-                                            <note xml:id="note-0000000475865157" dur.ppq="160" dur="8" oct="2" pname="f" stem.dir="up" accid.ges="s" />
-                                            <note xml:id="note-0000000006188795" dur.ppq="160" dur="8" oct="3" pname="c" stem.dir="up">
-                                                <accid xml:id="accid-0000001529925268" accid="s" accid.ges="s" />
-                                            </note>
-                                            <note xml:id="note-0000001598495534" dur.ppq="160" dur="8" oct="3" pname="e" stem.dir="up" />
-                                        </tuplet>
-                                    </beam>
-                                    <beam xml:id="beam-0000000071228977">
-                                        <tuplet xml:id="tuplet-0000001183242494" num="3" numbase="2" num.visible="false" bracket.visible="false">
-                                            <note xml:id="note-0000000722344896" dur.ppq="160" dur="8" oct="3" pname="a" stem.dir="down">
-                                                <accid xml:id="accid-0000002136707441" accid="s" accid.ges="s" />
-                                            </note>
-                                            <note xml:id="note-0000000178454338" dur.ppq="160" dur="8" oct="4" pname="d" stem.dir="down">
-                                                <accid xml:id="accid-0000001551532917" accid="n" />
-                                            </note>
-                                            <note xml:id="note-0000001047144368" dur.ppq="160" dur="8" oct="4" pname="c" stem.dir="down">
-                                                <accid xml:id="accid-0000000951831130" accid="s" accid.ges="s" />
-                                            </note>
-                                        </tuplet>
-                                    </beam>
-                                    <beam xml:id="beam-0000001141710118">
-                                        <tuplet xml:id="tuplet-0000000607036882" num="3" numbase="2" num.visible="false" bracket.visible="false">
-                                            <note xml:id="note-0000001660156097" dur.ppq="160" dur="8" oct="2" pname="f" stem.dir="up" accid.ges="s" />
-                                            <note xml:id="note-0000000856985813" dur.ppq="160" dur="8" oct="3" pname="d" stem.dir="up" />
-                                            <note xml:id="note-0000000445297744" dur.ppq="160" dur="8" oct="3" pname="f" stem.dir="up" accid.ges="s" />
-                                        </tuplet>
-                                    </beam>
-                                    <beam xml:id="beam-0000000884789836">
-                                        <tuplet xml:id="tuplet-0000001558234733" num="3" numbase="2" num.visible="false" bracket.visible="false">
-                                            <note xml:id="note-0000001802626228" dur.ppq="160" dur="8" oct="3" pname="b" stem.dir="down" />
-                                            <note xml:id="note-0000000271568466" dur.ppq="160" dur="8" oct="3" pname="a" stem.dir="down" accid.ges="s" />
-                                            <note xml:id="note-0000000900583487" dur.ppq="160" dur="8" oct="3" pname="b" stem.dir="down" />
-                                        </tuplet>
-                                    </beam>
-                                </layer>
-                            </staff>
-                            <hairpin xml:id="hairpin-0000001501996461" staff="1" startid="#note-0000000744147817" endid="#note-0000000744147817" form="dim" place="below" />
-                            <slur xml:id="slur-0000002059654198" startid="#note-0000000744147817" endid="#note-0000000267919548" curvedir="above" />
-                            <pedal xml:id="pedal-0000001717703536" staff="2" startid="#note-0000000475865157" dir="down" place="below" />
-                            <slur xml:id="slur-0000001823822134" startid="#note-0000000475865157" endid="#note-0000000900583487" curvedir="above" />
-                            <pedal xml:id="pedal-0000000672288727" staff="2" startid="#note-0000000178454338" dir="up" place="below" />
-                            <pedal xml:id="pedal-0000000773642848" staff="2" startid="#note-0000001660156097" dir="down" place="below" />
-                            <slur xml:id="slur-0000001237762280" startid="#note-0000001660156097" endid="#note-0000001399066429" curvedir="above" />
-                            <pedal xml:id="pedal-0000001127568755" staff="2" startid="#note-0000000900583487" dir="up" place="below" />
-                        </measure>
-                        <measure xml:id="measure-0000001377297635" n="21">
-                            <staff xml:id="staff-0000000611492172" n="1">
-                                <layer xml:id="layer-0000000385323330" n="1">
-                                    <note xml:id="note-0000001066443895" dur.ppq="960" dur="2" oct="4" pname="b" stem.dir="up">
-                                        <artic xml:id="artic-0000000008650192" artic="acc" />
-                                    </note>
-                                    <note xml:id="note-0000001575130292" dur.ppq="960" dur="2" oct="4" pname="a" stem.dir="up">
-                                        <accid xml:id="accid-0000001999264464" accid="s" accid.ges="s" />
-                                    </note>
-                                </layer>
-                                <layer xml:id="layer-0000000836908468" n="2">
-                                    <note xml:id="note-0000001209241403" dots="1" dur.ppq="1440" dur="2" oct="4" pname="c" stem.dir="down">
-                                        <accid xml:id="accid-0000000256707078" accid="s" accid.ges="s" />
-                                    </note>
-                                    <note xml:id="note-0000001415669526" dur.ppq="480" dur="4" oct="4" pname="e" stem.dir="down">
-                                        <accid xml:id="accid-0000000599053150" accid="n" />
-                                    </note>
-                                </layer>
-                            </staff>
-                            <staff xml:id="staff-0000000327647656" n="2">
-                                <layer xml:id="layer-0000001655547630" n="5">
-                                    <beam xml:id="beam-0000000444811935">
-                                        <tuplet xml:id="tuplet-0000002037752718" num="3" numbase="2" num.visible="false" bracket.visible="false">
-                                            <note xml:id="note-0000001468458665" dur.ppq="160" dur="8" oct="2" pname="f" stem.dir="up" accid.ges="s" />
-                                            <note xml:id="note-0000000384644770" dur.ppq="160" dur="8" oct="3" pname="c" stem.dir="up">
-                                                <accid xml:id="accid-0000000519886341" accid="s" accid.ges="s" />
-                                            </note>
-                                            <note xml:id="note-0000000472157952" dur.ppq="160" dur="8" oct="3" pname="e" stem.dir="up">
-                                                <accid xml:id="accid-0000000600180182" accid="s" accid.ges="s" />
-                                            </note>
-                                        </tuplet>
-                                    </beam>
-                                    <beam xml:id="beam-0000000926395539">
-                                        <tuplet xml:id="tuplet-0000000862103055" num="3" numbase="2" num.visible="false" bracket.visible="false">
-                                            <note xml:id="note-0000001668876161" dur.ppq="160" dur="8" oct="3" pname="f" stem.dir="down" accid.ges="s" />
-                                            <note xml:id="note-0000000585124033" dur.ppq="160" dur="8" oct="3" pname="a" stem.dir="down">
-                                                <accid xml:id="accid-0000001504314381" accid="n" />
-                                            </note>
-                                            <note xml:id="note-0000000971392239" dur.ppq="160" dur="8" oct="3" pname="g" stem.dir="down" />
-                                        </tuplet>
-                                    </beam>
-                                    <beam xml:id="beam-0000002114244257">
-                                        <tuplet xml:id="tuplet-0000000084971468" num="3" numbase="2" num.visible="false" bracket.visible="false">
-                                            <note xml:id="note-0000000510976323" dur.ppq="160" dur="8" oct="2" pname="f" stem.dir="up" accid.ges="s" />
-                                            <note xml:id="note-0000001651969414" dur.ppq="160" dur="8" oct="3" pname="c" stem.dir="up" accid.ges="s" />
-                                            <note xml:id="note-0000001313712214" dur.ppq="160" dur="8" oct="3" pname="e" stem.dir="up">
-                                                <accid xml:id="accid-0000001801087909" accid="s" accid.ges="s" />
-                                            </note>
-                                        </tuplet>
-                                    </beam>
-                                    <beam xml:id="beam-0000000905238766">
-                                        <tuplet xml:id="tuplet-0000000577006294" num="3" numbase="2" num.visible="false" bracket.visible="false">
-                                            <note xml:id="note-0000000787264361" dur.ppq="160" dur="8" oct="3" pname="f" stem.dir="down" accid.ges="s" />
-                                            <note xml:id="note-0000001958081655" dur.ppq="160" dur="8" oct="3" pname="e" stem.dir="down" accid.ges="s" />
-                                            <note xml:id="note-0000000722593926" dur.ppq="160" dur="8" oct="3" pname="f" stem.dir="down" accid.ges="s" />
-                                        </tuplet>
-                                    </beam>
-                                </layer>
-                            </staff>
-                            <hairpin xml:id="hairpin-0000000330265204" staff="1" startid="#note-0000001066443895" endid="#note-0000001575130292" form="dim" place="below" />
-                            <slur xml:id="slur-0000001338254337" startid="#note-0000001066443895" endid="#chord-0000000083531976" curvedir="above" />
-                            <pedal xml:id="pedal-0000001501215743" staff="2" startid="#note-0000001468458665" dir="down" place="below" />
-                            <slur xml:id="slur-0000002116557731" startid="#note-0000001468458665" endid="#note-0000000971392239" curvedir="above" />
-                            <pedal xml:id="pedal-0000000753764747" staff="2" startid="#note-0000000585124033" dir="up" place="below" />
-                            <pedal xml:id="pedal-0000001693473634" staff="2" startid="#note-0000000510976323" dir="down" place="below" />
-                            <slur xml:id="slur-0000000029740435" startid="#note-0000000510976323" endid="#note-0000000722593926" curvedir="above" />
-                            <pedal xml:id="pedal-0000001296932117" staff="2" startid="#note-0000000722593926" dir="up" place="below" />
-                        </measure>
-                        <sb xml:id="sb-0000002115684806" />
-                        <measure xml:id="measure-0000000040320394" n="22">
-                            <staff xml:id="staff-0000000343592517" n="1">
-                                <layer xml:id="layer-0000000969770955" n="1">
-                                    <chord xml:id="chord-0000000083531976" dur.ppq="960" dur="2" stem.dir="up">
-                                        <note xml:id="note-0000000891552361" oct="4" pname="d">
-                                            <accid xml:id="accid-0000001002808587" accid="s" accid.ges="s" />
-                                        </note>
-                                        <note xml:id="note-0000001836706496" oct="4" pname="b" />
-                                    </chord>
-                                    <rest xml:id="rest-0000001808653371" dur.ppq="960" dur="2" />
-                                </layer>
-                            </staff>
-                            <staff xml:id="staff-0000001490782845" n="2">
-                                <layer xml:id="layer-0000000440082772" n="5">
-                                    <beam xml:id="beam-0000001573765536">
-                                        <tuplet xml:id="tuplet-0000000397104286" num="3" numbase="2" num.visible="false" bracket.visible="false">
-                                            <note xml:id="note-0000001686983665" dur.ppq="160" dur="8" oct="1" pname="b" stem.dir="up" />
-                                            <note xml:id="note-0000000903466429" dur.ppq="160" dur="8" oct="2" pname="f" stem.dir="up" accid.ges="s" />
-                                            <note xml:id="note-0000001076209502" dur.ppq="160" dur="8" oct="3" pname="f" stem.dir="up" accid.ges="s" />
-                                        </tuplet>
-                                    </beam>
-                                    <beam xml:id="beam-0000001440059997">
-                                        <tuplet xml:id="tuplet-0000001221866835" num="3" numbase="2" num.visible="false" bracket.visible="false">
-                                            <note xml:id="note-0000000039659070" dur.ppq="160" dur="8" oct="3" pname="d" stem.dir="up">
-                                                <accid xml:id="accid-0000001703450630" accid="s" accid.ges="s" />
-                                            </note>
-                                            <note xml:id="note-0000000920450153" dur.ppq="160" dur="8" oct="3" pname="c" stem.dir="up">
-                                                <accid xml:id="accid-0000001646950044" accid="s" accid.ges="s" />
-                                            </note>
-                                            <note xml:id="note-0000001399066429" dur.ppq="160" dur="8" oct="2" pname="b" stem.dir="up" />
-                                        </tuplet>
-                                    </beam>
-                                    <beam xml:id="beam-0000001027249525">
-                                        <tuplet xml:id="tuplet-0000000978388091" num="3" numbase="2" num.visible="false" bracket.visible="false">
-                                            <note xml:id="note-0000000901955324" dur.ppq="160" dur="8" oct="1" pname="b" stem.dir="up" />
-                                            <note xml:id="note-0000000823035766" dur.ppq="160" dur="8" oct="2" pname="f" stem.dir="up" accid.ges="s" />
-                                            <note xml:id="note-0000001649386828" dur.ppq="160" dur="8" oct="3" pname="f" stem.dir="up" accid.ges="s" />
-                                        </tuplet>
-                                    </beam>
-                                    <beam xml:id="beam-0000000215318518">
-                                        <tuplet xml:id="tuplet-0000000875582138" num="3" numbase="2" num.visible="false" bracket.visible="false">
-                                            <note xml:id="note-0000002016673550" dur.ppq="160" dur="8" oct="3" pname="d" stem.dir="up" accid.ges="s" />
-                                            <note xml:id="note-0000001214829429" dur.ppq="160" dur="8" oct="3" pname="c" stem.dir="up" accid.ges="s" />
-                                            <note xml:id="note-0000001730669551" dur.ppq="160" dur="8" oct="2" pname="b" stem.dir="up" />
-                                        </tuplet>
-                                    </beam>
-                                </layer>
-                            </staff>
-                            <dynam xml:id="dynam-0000001751192781" place="below" staff="1" startid="#chord-0000000083531976">p</dynam>
-                            <pedal xml:id="pedal-0000002103984600" staff="2" startid="#note-0000001686983665" dir="down" place="below" />
-                            <slur xml:id="slur-0000000880686557" startid="#note-0000001686983665" endid="#note-0000000823035766" curvedir="below" />
-                            <pedal xml:id="pedal-0000001856271446" staff="2" startid="#note-0000001399066429" dir="up" place="below" />
-                            <pedal xml:id="pedal-0000000562375331" staff="2" startid="#note-0000000901955324" dir="down" place="below" />
-                            <slur xml:id="slur-0000002003162187" startid="#note-0000000901955324" endid="#note-0000000370327679" curvedir="below" />
-                            <pedal xml:id="pedal-0000001993059373" staff="2" startid="#note-0000001214829429" dir="up" place="below" />
                         </measure>
                     </section>
                 </score>

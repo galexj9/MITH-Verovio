@@ -1,11 +1,50 @@
 /* Some global variables */
-var vrvToolkit = new verovio.toolkit();
+let vrvToolkit = new verovio.toolkit();
 //defaults
-var pageHeight = 1920;
-var pageWidth = 1080;
+let pageHeight = 1920,  pageWidth = 1080;
+
+let choiceXPathQuery = [];
 
 
-/* A function for setting options to the toolkit */
+//startup function call order:
+  //document.ready
+  //loadFile()
+  //loadData()
+  //setOptions()
+  //loadPage()
+
+$(document).ready(function() {
+  //verovio file loading
+  loadFile();
+
+  //toggle button
+  $('a#button1').click(function() {
+    $(this).toggleClass("down");
+    choiceXPathQuery = (choiceXPathQuery == "./reg")? [] : ["./reg"];
+    loadFile();
+  });
+
+  $('a#controls').click(function() {
+    $(this).toggleClass("down");
+    playMIDI();
+  });
+});
+
+//loads the mei file
+function loadFile() {
+  $.get("/data/nocturne.mei").then((data) => loadData(data));
+}
+
+//loads the mei data into the verovio toolkit with set options
+function loadData(data) {
+  setOptions();
+  vrvToolkit.loadData(data);
+
+  page = 1;
+  loadPage();
+}
+
+//configures the rendering options for the verovio viewer
 function setOptions() {
   /* Adjust the height and width according to the window size */
   pageHeight = document.pageHeight;
@@ -14,69 +53,38 @@ function setOptions() {
     pageHeight: pageHeight,
     pageWidth: pageWidth,
     scale: 50,
-    adjustPageHeight: true
+    adjustPageHeight: true,
+    choiceXPathQuery: choiceXPathQuery
   };
   vrvToolkit.setOptions(options);
 }
 
-/* A function that sets the options, loads the data and renders the first page */
-function loadData(data) {
-  setOptions();
-  vrvToolkit.loadData(data);
+//loads everything onto the page
+function loadPage() {
   svg = vrvToolkit.renderToSVG(1, {});
   $("#output").html(svg);
 }
 
-/* a function that paints the pedal markings all red */
-function paintPeds() {
-  var style = window.getComputedStyle($(".pedal")[0]);
-  var red = "rgb(200, 0, 0)",
-    black = "rgb(0, 0, 0)";
-  //checks the first pedal's style
-  if (style.stroke == red) {
-    $(".pedal").attr("fill", black).attr("stroke", black);
-  } else {
-    $(".pedal").attr("fill", red).attr("stroke", red);
-  }
-}
-
-function play_midi() {
+//plays the song in MIDI
+function playMIDI() {
   if (!MIDI.Player.playing) {
-    MIDI.Player.BPM = 60;
-    playMIDIString(vrvToolkit.renderToMIDI());
+    MIDI.Player.BPM = 69;
+    MIDI.loadPlugin({
+      soundfontUrl: "MIDI/examples/soundfont/",
+      instruments: 'acoustic_grand_piano',
+      onsuccess: function() {
+        var player = MIDI.Player;
+        player.loadFile("data:audio/midi;base64," + vrvToolkit.renderToMIDI(),
+          function() {
+
+            MIDI.AudioTag.setVolume(0, 127);
+            MIDI.AudioTag.setVolume(1, 127);
+            MIDI.channel = 1;
+            player.start();
+          });
+      }
+    });
   } else {
     MIDI.Player.stop();
   }
 }
-
-function playMIDIString(string) {
-  MIDI.loadPlugin({
-    soundfontUrl: "MIDI/examples/soundfont/",
-    instruments: 'acoustic_grand_piano',
-    onsuccess: function() {
-      var player = MIDI.Player;
-      player.loadFile("data:audio/midi;base64," + string, function() {
-        MIDI.AudioTag.setVolume(0, 127);
-        MIDI.AudioTag.setVolume(1, 127);
-        MIDI.channel = 1;
-        player.start();
-      });
-    }
-  });
-}
-
-$(document).ready(function() {
-  //verovio file loading
-  $.get("/data/nocturne.mei").then((data) => loadData(data));
-
-  //toggle button
-  $('a#button1').click(function() {
-    $(this).toggleClass("down");
-    paintPeds();
-  });
-
-  $('a#controls').click(function() {
-    $(this).toggleClass("down");
-    play_midi();
-  });
-});
