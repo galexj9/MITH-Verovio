@@ -32,7 +32,7 @@ $(document).ready(function() {
 
 //loads the mei file
 function loadFile() {
-  $.get("/nocturne.mei").then((data) => loadData(data));
+  $.get("./nocturne.mei").then((data) => loadData(data));
 }
 
 //loads the mei data into the verovio toolkit with set options
