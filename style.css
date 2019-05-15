@@ -19,7 +19,7 @@ a {
   padding: 5px 5px;
   top: 10px;
   margin: 10px;
-  position: relative;
+  position: fixed;
 }
 
 a.down {
@@ -28,4 +28,8 @@ a.down {
   border-left: solid 2px #777;
   border-bottom: solid 2px #eaeaea;
   border-right: solid 2px #eaeaea;
+}
+
+#controls {
+  top: 50px;
 }

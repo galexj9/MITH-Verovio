@@ -6,7 +6,7 @@
         <fileDesc>
             <titleStmt>
                 <title>Nocturne in E Minor</title>
-                <title type="subtitle"> Op. 72 - No. 1 </title>
+                <title type="subtitle"> Chopin Op. 72 No. 1 </title>
             </titleStmt>
             <pubStmt></pubStmt>
         </fileDesc>
@@ -146,12 +146,20 @@
                             </dir>
                             <slur xml:id="slur-0000000645634049" startid="#note-0000000691443689" endid="#note-0000000555502563" curvedir="below" />
                             <slur xml:id="slur-0000000031676120" startid="#note-0000000555502563" endid="#note-0000001682318834" curvedir="above" />
-                            <pedal xml:id="pedal-0000001183999656" staff="2" startid="#note-0000001123567067" dir="down" place="below" />
                             <slur xml:id="slur-0000001978318034" startid="#note-0000001123567067" endid="#note-0000001722121266" curvedir="above" />
-                            <pedal xml:id="pedal-0000000639612635" staff="2" startid="#note-0000001986551919" dir="up" place="below" />
-                            <pedal xml:id="pedal-0000000316041153" staff="2" startid="#note-0000002043100904" dir="down" place="below" />
                             <slur xml:id="slur-0000000693591490" startid="#note-0000002043100904" endid="#note-0000000368815384" curvedir="above" />
-                            <pedal xml:id="pedal-0000001024241548" staff="2" startid="#note-0000000368815384" dir="up" place="below" />
+                            <choice>
+                              <orig>
+                                <pedal xml:id="pedal-0000001183999656" staff="2" startid="#note-0000001123567067" dir="down" place="below" />
+                                <pedal xml:id="pedal-0000000639612635" staff="2" startid="#note-0000001986551919" dir="up" place="below" />
+                                <pedal xml:id="pedal-0000000316041153" staff="2" startid="#note-0000002043100904" dir="down" place="below" />
+                                <pedal xml:id="pedal-0000001024241548" staff="2" startid="#note-0000000368815384" dir="up" place="below" />
+                              </orig>
+                              <reg>
+                                <pedal xml:id="pedal-0000001183999656" staff="2" startid="#note-0000001123567067" dir="down" place="below" />
+                                <pedal xml:id="pedal-0000000316041153" staff="2" startid="#note-0000002043100904" dir="down" place="below" />
+                              </reg>
+                            </choice>
                         </measure>
                         <measure xml:id="measure-0000001564824251" n="3">
                             <staff xml:id="staff-0000002017652010" n="1">
@@ -198,12 +206,20 @@
                                 </layer>
                             </staff>
                             <slur xml:id="slur-0000000926768497" startid="#note-0000001002879239" endid="#note-0000000223654724" curvedir="above" />
-                            <pedal xml:id="pedal-0000000368764000" staff="2" startid="#note-0000000608433065" dir="down" place="below" />
                             <slur xml:id="slur-0000000411037275" startid="#note-0000000608433065" endid="#note-0000001272245142" curvedir="above" />
-                            <pedal xml:id="pedal-0000000560321974" staff="2" startid="#note-0000000116869765" dir="up" place="below" />
-                            <pedal xml:id="pedal-0000000196154049" staff="2" startid="#note-0000000216836765" dir="down" place="below" />
                             <slur xml:id="slur-0000001293972698" startid="#note-0000000216836765" endid="#note-0000001477149669" curvedir="above" />
-                            <pedal xml:id="pedal-0000001667406060" staff="2" startid="#note-0000001708932589" dir="up" place="below" />
+                            <choice>
+                              <orig>
+                                <pedal xml:id="pedal-0000000368764000" staff="2" startid="#note-0000000608433065" dir="down" place="below" />
+                                <pedal xml:id="pedal-0000000560321974" staff="2" startid="#note-0000000116869765" dir="up" place="below" />
+                                <pedal xml:id="pedal-0000000196154049" staff="2" startid="#note-0000000216836765" dir="down" place="below" />
+                                <pedal xml:id="pedal-0000001667406060" staff="2" startid="#note-0000001708932589" dir="up" place="below" />
+                              </orig>
+                              <reg>
+                                <pedal xml:id="pedal-0000000368764000" staff="2" startid="#note-0000000608433065" dir="down" place="below" />
+                                <pedal xml:id="pedal-0000001667406060" staff="2" startid="#note-0000001708932589" dir="down" place="below" />
+                              </reg>
+                            </choice>
                         </measure>
                         <sb xml:id="sb-0000001928609363" />
                         <measure xml:id="measure-0000000564256317" n="4">
@@ -265,13 +281,22 @@
                                     </beam>
                                 </layer>
                             </staff>
+                            <choice>
+                                <orig>
+                                  <pedal xml:id="pedal-0000000340934026" staff="2" startid="#note-0000000340296761" dir="down" place="below" />
+                                  <pedal xml:id="pedal-0000000426171871" staff="2" startid="#note-0000000002166932" dir="up" place="below" />
+                                  <pedal xml:id="pedal-0000001743685187" staff="2" startid="#note-0000001851307345" dir="down" place="below" />
+                                  <pedal xml:id="pedal-0000001328072219" staff="2" startid="#note-0000000628511476" dir="up" place="below" />
+                                </orig>
+                                <reg>
+                                  <pedal xml:id="pedal-0000000340934026" staff="2" startid="#note-0000000340296761" dir="down" place="below" />
+                                  <pedal xml:id="pedal-0000001743685187" staff="2" startid="#note-0000001851307345" dir="down" place="below" />
+                                  <pedal xml:id="pedal-0000001328072219" staff="2" startid="#note-0000000628511476" dir="up" place="below" />
+                                </reg>
+                            </choice>
                             <slur xml:id="slur-0000000380352516" startid="#note-0000001948887528" endid="#chord-0000001288415861" curvedir="above" />
-                            <pedal xml:id="pedal-0000000340934026" staff="2" startid="#note-0000000340296761" dir="down" place="below" />
                             <slur xml:id="slur-0000000848818710" startid="#note-0000000340296761" endid="#note-0000000657185708" curvedir="above" />
-                            <pedal xml:id="pedal-0000000426171871" staff="2" startid="#note-0000000002166932" dir="up" place="below" />
-                            <pedal xml:id="pedal-0000001743685187" staff="2" startid="#note-0000001851307345" dir="down" place="below" />
                             <slur xml:id="slur-0000001104712394" startid="#note-0000001851307345" endid="#note-0000001094543798" curvedir="above" />
-                            <pedal xml:id="pedal-0000001328072219" staff="2" startid="#note-0000000628511476" dir="up" place="below" />
                         </measure>
                         <measure xml:id="measure-0000001087016760" n="5">
                             <staff xml:id="staff-0000001475431488" n="1">
@@ -332,17 +357,23 @@
                                     </beam>
                                 </layer>
                             </staff>
+                            <choice>
+                              <orig>
+                                <pedal xml:id="pedal-0000001279659346" staff="2" startid="#note-0000002069672282" dir="down" place="below" />
+                                <pedal xml:id="pedal-0000000290426434" staff="2" startid="#note-0000001589604163" dir="up" place="below" />
+                                <pedal xml:id="pedal-0000000091694042" staff="2" startid="#note-0000001711177250" dir="down" place="below" />
+                                <pedal xml:id="pedal-0000000079188421" staff="2" startid="#note-0000000043101639" dir="up" place="below" />
+                                <pedal xml:id="pedal-0000000342512116" staff="2" startid="#note-0000001755742460" dir="down" place="below" />
+                              </orig>
+                              <reg>
+                                <pedal xml:id="pedal-0000000091694042" staff="2" startid="#note-0000001711177250" dir="down" place="below" />
+                                <pedal xml:id="pedal-0000000342512116" staff="2" startid="#note-0000001755742460" dir="down" place="below" />
+                              </reg>
+                            </choice>
                             <hairpin xml:id="hairpin-0000001933765155" staff="1" startid="#chord-0000000144621277" endid="#note-0000001777707307" form="cres" place="below" />
                             <hairpin xml:id="hairpin-0000001957535803" staff="1" startid="#chord-0000000579305838" endid="#note-0000001323728423" form="dim" place="below" />
-                            <pedal xml:id="pedal-0000001279659346" staff="2" startid="#note-0000002069672282" dir="down" place="below" />
-                            <slur xml:id="slur-0000001994716612" startid="#note-0000002069672282" endid="#note-0000001324583840" curvedir="below" />
-                            <slur xml:id="slur-0000001119209674" startid="#note-0000002069672282" endid="#note-0000001932154812" curvedir="above" />
-                            <pedal xml:id="pedal-0000000290426434" staff="2" startid="#note-0000001589604163" dir="up" place="below" />
-                            <pedal xml:id="pedal-0000000091694042" staff="2" startid="#note-0000001711177250" dir="down" place="below" />
-                            <pedal xml:id="pedal-0000000079188421" staff="2" startid="#note-0000000043101639" dir="up" place="below" />
-                            <slur xml:id="slur-0000001599205613" startid="#note-0000000043101639" endid="#note-0000000009411754" curvedir="above" />
-                            <pedal xml:id="pedal-0000000342512116" staff="2" startid="#note-0000001755742460" dir="down" place="below" />
-                            <pedal xml:id="pedal-0000001187883539" staff="1" startid="#chord-0000001203524823" dir="up" place="below" />
+
+                            <slur xml:id="slur-0000001599205613" startid="#note-0000002069672282" endid="#note-0000000009411754" curvedir="above" />
                         </measure>
                         <measure xml:id="measure-0000001671070963" n="6">
                             <staff xml:id="staff-0000001493042597" n="1">
@@ -409,15 +440,25 @@
                                     </beam>
                                 </layer>
                             </staff>
+                            <choice>
+                              <orig>
+                                <pedal xml:id="pedal-0000001144611912" staff="2" startid="#note-0000001502202749" dir="down" place="below" />
+                                <pedal xml:id="pedal-0000001159858931" staff="2" startid="#note-0000001668980735" dir="up" place="below" />
+                                <pedal xml:id="pedal-0000000842275185" staff="2" startid="#note-0000000395551550" dir="down" place="below" />
+                                <pedal xml:id="pedal-0000000359359290" staff="2" startid="#note-0000001588445332" dir="up" place="below" />
+                              </orig>
+                              <reg>
+                                <pedal xml:id="pedal-0000001144611912" staff="2" startid="#note-0000001502202749" dir="down" place="below" />
+                                <pedal xml:id="pedal-0000001159858931" staff="2" startid="#note-0000001668980735" dir="down" place="below" />
+                                <pedal xml:id="pedal-0000000842275185" staff="2" startid="#note-0000000395551550" dir="down" place="below" />
+                                <pedal xml:id="pedal-0000000359359290" staff="2" startid="#note-0000001588445332" dir="up" place="below" />
+                              </reg>
+                            </choice>
                             <dynam xml:id="dynam-0000000760215889" place="below" staff="1" startid="#chord-0000001203524823">p</dynam>
                             <slur xml:id="slur-0000000676098283" startid="#note-0000001892921764" endid="#note-0000001358172778" curvedir="above" />
-                            <pedal xml:id="pedal-0000001144611912" staff="2" startid="#note-0000001502202749" dir="down" place="below" />
                             <slur xml:id="slur-0000001290491695" startid="#note-0000001502202749" endid="#note-0000001100049691" curvedir="above" />
-                            <pedal xml:id="pedal-0000001159858931" staff="2" startid="#note-0000001668980735" dir="up" place="below" />
                             <hairpin xml:id="hairpin-0000000354127641" staff="2" startid="#note-0000001668980735" endid="#note-0000001588445332" form="cres" place="above" />
-                            <pedal xml:id="pedal-0000000842275185" staff="2" startid="#note-0000000395551550" dir="down" place="below" />
                             <slur xml:id="slur-0000001861445289" startid="#note-0000000395551550" endid="#note-0000001588445332" curvedir="above" />
-                            <pedal xml:id="pedal-0000000359359290" staff="2" startid="#note-0000001588445332" dir="up" place="below" />
                         </measure>
                         <sb xml:id="sb-0000001073934674" />
                         <measure xml:id="measure-0000001200767585" n="7">
@@ -472,12 +513,21 @@
                                     </beam>
                                 </layer>
                             </staff>
+                            <choice>
+                              <orig>
+                                <pedal xml:id="pedal-0000001997355054" staff="2" startid="#note-0000001178941283" dir="down" place="below" />
+                                <pedal xml:id="pedal-0000002019885520" staff="2" startid="#note-0000000003310495" dir="up" place="below" />
+                                <pedal xml:id="pedal-0000001528541744" staff="2" startid="#note-0000001217580394" dir="down" place="below" />
+                                <pedal xml:id="pedal-0000000578128687" staff="1" startid="#note-0000000706787952" dir="up" place="below" />
+                              </orig>
+                              <reg>
+                                <pedal xml:id="pedal-0000001997355054" staff="2" startid="#note-0000001178941283" dir="down" place="below" />
+                                <pedal xml:id="pedal-0000001528541744" staff="2" startid="#note-0000001217580394" dir="down" place="below" />
+                              </reg>
+                            </choice>
+
                             <slur xml:id="slur-0000000914882852" startid="#note-0000001294557627" endid="#note-0000000576187977" curvedir="above" />
-                            <pedal xml:id="pedal-0000001997355054" staff="2" startid="#note-0000001178941283" dir="down" place="below" />
                             <slur xml:id="slur-0000000022128994" startid="#note-0000001178941283" endid="#note-0000000202092110" curvedir="above" />
-                            <pedal xml:id="pedal-0000002019885520" staff="2" startid="#note-0000000003310495" dir="up" place="below" />
-                            <pedal xml:id="pedal-0000001528541744" staff="2" startid="#note-0000001217580394" dir="down" place="below" />
-                            <pedal xml:id="pedal-0000000578128687" staff="1" startid="#note-0000000706787952" dir="up" place="below" />
                         </measure>
                         <measure xml:id="measure-0000000211531451" n="8">
                             <staff xml:id="staff-0000000508588143" n="1">
@@ -533,11 +583,19 @@
                                     </beam>
                                 </layer>
                             </staff>
-                            <pedal xml:id="pedal-0000000045982853" staff="2" startid="#note-0000001330802819" dir="down" place="below" />
+                            <choice>
+                              <orig>
+                                <pedal xml:id="pedal-0000000045982853" staff="2" startid="#note-0000001330802819" dir="down" place="below" />
+                                <pedal xml:id="pedal-0000000657580047" staff="2" startid="#note-0000002066603604" dir="up" place="below" />
+                                <pedal xml:id="pedal-0000001033516681" staff="2" startid="#note-0000000891680325" dir="down" place="below" />
+                                <pedal xml:id="pedal-0000001754596304" staff="1" startid="#note-0000000576187977" dir="up" place="below" />
+                              </orig>
+                              <reg>
+                                <pedal xml:id="pedal-0000000045982853" staff="2" startid="#note-0000001330802819" dir="down" place="below" />
+                                <pedal xml:id="pedal-0000001033516681" staff="2" startid="#note-0000000891680325" dir="down" place="below" />
+                              </reg>
+                            </choice>
                             <slur xml:id="slur-0000001496046115" startid="#note-0000001330802819" endid="#note-0000000378892470" curvedir="above" />
-                            <pedal xml:id="pedal-0000000657580047" staff="2" startid="#note-0000002066603604" dir="up" place="below" />
-                            <pedal xml:id="pedal-0000001033516681" staff="2" startid="#note-0000000891680325" dir="down" place="below" />
-                            <pedal xml:id="pedal-0000001754596304" staff="1" startid="#note-0000000576187977" dir="up" place="below" />
                         </measure>
                         <measure xml:id="measure-0000001649513171" n="9">
                             <staff xml:id="staff-0000001086465070" n="1">
@@ -559,20 +617,12 @@
                                             <note xml:id="note-0000000772460905" dur.ppq="160" dur="8" oct="3" pname="f" stem.dir="up" accid.ges="s" />
                                         </tuplet>
                                     </beam>
-                                    <note xml:id="note-0000000856590878" dur.ppq="480" dur="4" oct="3" pname="a" stem.dir="up">
-                                        <accid xml:id="accid-0000000077435466" accid="n" />
-                                    </note>
-                                    <note xml:id="note-0000000131026793" dur.ppq="480" dur="4" oct="3" pname="g" stem.dir="up" />
-                                    <note xml:id="note-0000000052760326" dur.ppq="480" dur="4" oct="3" pname="f" stem.dir="up" accid.ges="s" />
-                                </layer>
-                                <layer xml:id="layer-0000002115911109" n="6">
-                                    <rest xml:id="rest-0000000515665047" dur.ppq="480" dur="4" />
                                     <beam xml:id="beam-0000002138590655">
                                         <tuplet xml:id="tuplet-0000000740451111" num="3" numbase="2" num.visible="false" bracket.visible="false">
-                                            <note xml:id="note-0000001430953477" dur.ppq="160" dur="8" oct="3" pname="a" stem.dir="down" />
-                                            <note xml:id="note-0000000723056720" dur.ppq="160" dur="8" oct="4" pname="c" stem.dir="down">
-                                                <accid xml:id="accid-0000001173560856" accid="n" />
+                                            <note xml:id="note-0000001430953477" dur.ppq="160" dur="8" oct="3" pname="a" stem.dir="down" >
+                                              <accid xml:id="accid-0000001173560856" accid="n" />
                                             </note>
+                                            <note xml:id="note-0000000723056720" dur.ppq="160" dur="8" oct="4" pname="c" stem.dir="down" />
                                             <note xml:id="note-0000001374012407" dur.ppq="160" dur="8" oct="3" pname="b" stem.dir="down" />
                                         </tuplet>
                                     </beam>
@@ -592,14 +642,23 @@
                                     </beam>
                                 </layer>
                             </staff>
+                            <choice>
+                              <orig>
+                                <pedal xml:id="pedal-0000000590550323" staff="2" startid="#note-0000000166055940" dir="down" place="below" />
+                                <pedal xml:id="pedal-0000001773314306" staff="2" startid="#note-0000001374012407" dir="up" place="below" />
+                              </orig>
+                              <reg>
+                                <pedal xml:id="pedal-0000000590550323" staff="2" startid="#note-0000000166055940" dir="down" place="below" />
+                                <pedal xml:id="pedal-0000000113670323" staff="2" startid="#note-0000001867347552" dir="down" place="below" />
+                                <pedal xml:id="pedal-0000000113670324" staff="2" startid="#note-0000000805006395" dir="down" place="below" />
+                              </reg>
+                            </choice>
                             <hairpin xml:id="hairpin-0000001400722033" staff="1" startid="#note-0000000727439106" endid="#note-0000000957483762" form="cres" place="below" />
                             <slur xml:id="slur-0000001852018589" startid="#note-0000000727439106" endid="#chord-0000000152001908" curvedir="below" />
                             <tempo xml:id="tempo-0000000729303452" place="above" staff="1" startid="#note-0000000957483762" midi.bpm="69">
                                 <rend xml:id="rend-0000000564322203" fontfam="Times New Roman" fontstyle="italic" fontweight="bold">rit.</rend>
                             </tempo>
-                            <pedal xml:id="pedal-0000000590550323" staff="2" startid="#note-0000000166055940" dir="down" place="below" />
                             <slur xml:id="slur-0000002002127407" startid="#note-0000000166055940" endid="#note-0000000052760326" curvedir="above" />
-                            <pedal xml:id="pedal-0000001773314306" staff="2" startid="#note-0000000131026793" dir="up" place="below" />
                         </measure>
                         <sb xml:id="sb-0000001440390082" />
                         <measure xml:id="measure-0000000842769704" n="10">
@@ -653,17 +712,26 @@
                                     </beam>
                                 </layer>
                             </staff>
+
+                            <choice>
+                              <orig>
+                                <pedal xml:id="pedal-0000001137934230" staff="2" startid="#note-0000000360332304" dir="down" place="below" />
+                                <pedal xml:id="pedal-0000000648701000" staff="2" startid="#note-0000001777283698" dir="up" place="below" />
+                                <pedal xml:id="pedal-0000001054963314" staff="2" startid="#note-0000002105513515" dir="down" place="below" />
+                                <pedal xml:id="pedal-0000000713527633" staff="2" startid="#note-0000001817338032" dir="up" place="below" />
+                              </orig>
+                              <reg>
+                                <pedal xml:id="pedal-0000001137934230" staff="2" startid="#note-0000000360332304" dir="down" place="below" />
+                                <pedal xml:id="pedal-0000001054963314" staff="2" startid="#note-0000002105513515" dir="down" place="below" />
+                              </reg>
+                            </choice>
                             <tempo xml:id="tempo-0000000996823219" place="above" staff="1" startid="#chord-0000000152001908" midi.bpm="69">
                                 <rend xml:id="rend-0000002111778832" fontfam="Times New Roman" fontstyle="italic" fontweight="bold">a tempo</rend>
                             </tempo>
                             <slur xml:id="slur-0000001075701667" startid="#chord-0000000152001908" endid="#chord-0000001282629607" curvedir="above" />
                             <dynam xml:id="dynam-0000000557351339" place="above" staff="2" startid="#note-0000000360332304">mf</dynam>
-                            <pedal xml:id="pedal-0000001137934230" staff="2" startid="#note-0000000360332304" dir="down" place="below" />
                             <slur xml:id="slur-0000000447817542" startid="#note-0000000360332304" endid="#note-0000001737719945" curvedir="above" />
-                            <pedal xml:id="pedal-0000000648701000" staff="2" startid="#note-0000001777283698" dir="up" place="below" />
-                            <pedal xml:id="pedal-0000001054963314" staff="2" startid="#note-0000002105513515" dir="down" place="below" />
                             <slur xml:id="slur-0000001079765763" startid="#note-0000002105513515" endid="#note-0000000483948360" curvedir="above" />
-                            <pedal xml:id="pedal-0000000713527633" staff="2" startid="#note-0000001817338032" dir="up" place="below" />
                         </measure>
                         <measure xml:id="measure-0000000672086410" n="11">
                             <staff xml:id="staff-0000000433385139" n="1">
@@ -742,16 +810,26 @@
                                     </beam>
                                 </layer>
                             </staff>
+                            <choice>
+                              <orig>
+                                <pedal xml:id="pedal-0000001774748982" staff="2" startid="#note-0000000514718392" dir="down" place="below" />
+                                <pedal xml:id="pedal-0000001653147157" staff="2" startid="#note-0000001285043145" dir="up" place="below" />
+                                <pedal xml:id="pedal-0000001954804019" staff="2" startid="#note-0000001012656428" dir="down" place="below" />
+                                <pedal xml:id="pedal-0000001145832572" staff="2" startid="#note-0000001701580871" dir="up" place="below" />
+                              </orig>
+                              <reg>
+                                <pedal xml:id="pedal-0000001774748982" staff="2" startid="#note-0000000514718392" dir="down" place="below" />
+                                <pedal xml:id="pedal-0000001653147157" staff="2" startid="#note-0000001285043145" dir="up" place="below" />
+                                <pedal xml:id="pedal-0000001954804019" staff="2" startid="#note-0000001012656428" dir="down" place="below" />
+                                <pedal xml:id="pedal-0000001145832572" staff="2" startid="#note-0000001701580871" dir="down" place="below" />
+                              </reg>
+                            </choice>
                             <tie xml:id="tie-0000001911828814" startid="#note-0000001233516927" endid="#note-0000001219002144" />
                             <slur xml:id="slur-0000001492529818" startid="#chord-0000001282629607" endid="#note-0000001390310579" curvedir="above" />
                             <tie xml:id="tie-0000000801734090" startid="#note-0000000074251703" endid="#note-0000002114175678" />
                             <hairpin xml:id="hairpin-0000001017592259" staff="1" startid="#chord-0000000656082218" endid="#note-0000000616091271" form="cres" place="below" />
-                            <pedal xml:id="pedal-0000001774748982" staff="2" startid="#note-0000000514718392" dir="down" place="below" />
                             <slur xml:id="slur-0000001351875921" startid="#note-0000000514718392" endid="#note-0000002040555582" curvedir="above" />
-                            <pedal xml:id="pedal-0000001653147157" staff="2" startid="#note-0000001285043145" dir="up" place="below" />
-                            <pedal xml:id="pedal-0000001954804019" staff="2" startid="#note-0000001012656428" dir="down" place="below" />
                             <slur xml:id="slur-0000000495434186" startid="#note-0000001012656428" endid="#note-0000001701580871" curvedir="above" />
-                            <pedal xml:id="pedal-0000001145832572" staff="2" startid="#note-0000001701580871" dir="up" place="below" />
                         </measure>
                         <measure xml:id="measure-0000000165854439" n="12">
                             <staff xml:id="staff-0000001107784407" n="1">
@@ -780,7 +858,6 @@
                                     </beam>
                                 </layer>
                                 <layer xml:id="layer-0000000635118970" n="2">
-                                    <rest xml:id="rest-0000002043400468" dots="1" dur.ppq="720" dur="4" />
                                     <note xml:id="note-0000001728771311" dur.ppq="240" dur="8" oct="4" pname="a" stem.dir="down" />
                                     <beam xml:id="beam-0000001778341917">
                                         <tuplet xml:id="tuplet-0000000191766297" num="3" numbase="2" num.visible="false" bracket.visible="false">
@@ -793,7 +870,6 @@
                                             </note>
                                         </tuplet>
                                     </beam>
-                                    <rest xml:id="rest-0000000826267846" dur.ppq="480" dur="4" />
                                 </layer>
                             </staff>
                             <staff xml:id="staff-0000002091225157" n="2">
@@ -830,14 +906,24 @@
                                     </beam>
                                 </layer>
                             </staff>
+                            <choice>
+                              <orig>
+                                <pedal xml:id="pedal-0000001392642311" staff="2" startid="#note-0000001261503330" dir="down" place="below" />
+                                <pedal xml:id="pedal-0000001190519396" staff="2" startid="#note-0000001998571339" dir="up" place="below" />
+                                <pedal xml:id="pedal-0000000182778106" staff="2" startid="#note-0000002118635743" dir="down" place="below" />
+                                <pedal xml:id="pedal-0000000766762623" staff="2" startid="#note-0000001602447547" dir="up" place="below" />
+                              </orig>
+                              <reg>
+                                <pedal xml:id="pedal-0000001392642311" staff="2" startid="#note-0000001261503330" dir="down" place="below" />
+
+                                <pedal xml:id="pedal-0000000766762623" staff="2" startid="#note-0000000521206168" dir="down" place="below" />
+                                <pedal xml:id="pedal-0000000766762624" staff="2" startid="#note-0000001259945993" dir="down" place="below" />
+                              </reg>
+                            </choice>
                             <hairpin xml:id="hairpin-0000000191191845" staff="1" startid="#note-0000001212811207" endid="#note-0000000819249261" form="dim" place="below" />
                             <slur xml:id="slur-0000000238048610" startid="#note-0000001212811207" endid="#chord-0000000479501433" curvedir="above" />
-                            <pedal xml:id="pedal-0000001392642311" staff="2" startid="#note-0000001261503330" dir="down" place="below" />
                             <slur xml:id="slur-0000000074313121" startid="#note-0000001261503330" endid="#note-0000001834041873" curvedir="above" />
-                            <pedal xml:id="pedal-0000001190519396" staff="2" startid="#note-0000001834041873" dir="up" place="below" />
-                            <pedal xml:id="pedal-0000000182778106" staff="2" startid="#note-0000002118635743" dir="down" place="below" />
                             <slur xml:id="slur-0000001002346976" startid="#note-0000002118635743" endid="#note-0000001002154385" curvedir="above" />
-                            <pedal xml:id="pedal-0000000766762623" staff="2" startid="#note-0000001259945993" dir="up" place="below" />
                         </measure>
                         <pb xml:id="pb-0000001169460811" />
                         <measure xml:id="measure-0000000756900356" n="13">
@@ -909,16 +995,24 @@
                                     </beam>
                                 </layer>
                             </staff>
+                            <choice>
+                              <orig>
+                                <pedal xml:id="pedal-0000001913911850" staff="2" startid="#note-0000001758241168" dir="down" place="below" />
+                                <pedal xml:id="pedal-0000001326303934" staff="2" startid="#note-0000001010273205" dir="up" place="below" />
+                                <pedal xml:id="pedal-0000001750045091" staff="2" startid="#note-0000000980317117" dir="down" place="below" />
+                                <pedal xml:id="pedal-0000000040480833" staff="2" startid="#note-0000000801579212" dir="up" place="below" />
+                                <pedal xml:id="pedal-0000000194458592" staff="2" startid="#note-0000001390638099" dir="down" place="below" />
+                              </orig>
+                              <reg>
+                                <pedal xml:id="pedal-0000001913911850" staff="2" startid="#note-0000001758241168" dir="down" place="below" />
+                                <pedal xml:id="pedal-0000001750045091" staff="2" startid="#note-0000000980317117" dir="down" place="below" />
+                                <pedal xml:id="pedal-0000000194458592" staff="2" startid="#note-0000001390638099" dir="down" place="below" />
+                              </reg>
+                            </choice>
                             <tie xml:id="tie-0000000355147864" startid="#note-0000000407503579" endid="#note-0000001276652144" />
                             <hairpin xml:id="hairpin-0000001638448724" staff="1" startid="#chord-0000000479501433" endid="#note-0000001834703527" form="dim" place="below" />
-                            <pedal xml:id="pedal-0000001913911850" staff="2" startid="#note-0000001758241168" dir="down" place="below" />
                             <slur xml:id="slur-0000000450524333" startid="#note-0000001758241168" endid="#note-0000001558567216" curvedir="above" />
-                            <pedal xml:id="pedal-0000001326303934" staff="2" startid="#note-0000001010273205" dir="up" place="below" />
-                            <pedal xml:id="pedal-0000001750045091" staff="2" startid="#note-0000000980317117" dir="down" place="below" />
                             <slur xml:id="slur-0000000324832971" startid="#note-0000001012685003" endid="#note-0000001733724174" curvedir="above" />
-                            <pedal xml:id="pedal-0000000040480833" staff="2" startid="#note-0000000801579212" dir="up" place="below" />
-                            <pedal xml:id="pedal-0000000194458592" staff="2" startid="#note-0000001390638099" dir="down" place="below" />
-                            <pedal xml:id="pedal-0000001511418635" staff="1" startid="#note-0000001828400538" dir="up" place="below" />
                         </measure>
                         <measure xml:id="measure-0000000257895128" n="14">
                             <staff xml:id="staff-0000001742588296" n="1">
@@ -973,15 +1067,25 @@
                                     </beam>
                                 </layer>
                             </staff>
+                            <choice>
+                              <orig>
+                                <pedal xml:id="pedal-0000000975590823" staff="2" startid="#note-0000001117942458" dir="down" place="below" />
+                                <pedal xml:id="pedal-0000001039606246" staff="2" startid="#note-0000000365059150" dir="up" place="below" />
+                                <pedal xml:id="pedal-0000001575511528" staff="2" startid="#note-0000000916629468" dir="down" place="below" />
+                                <pedal xml:id="pedal-0000000510963302" staff="1" startid="#note-0000001530457058" dir="up" place="below" />
+                              </orig>
+                              <reg>
+                                <pedal xml:id="pedal-0000000975590823" staff="2" startid="#note-0000001117942458" dir="down" place="below" />
+                                <pedal xml:id="pedal-0000001039606246" staff="2" startid="#note-0000000365059150" dir="down" place="below" />
+                                <pedal xml:id="pedal-0000001575511528" staff="2" startid="#note-0000000916629468" dir="down" place="below" />
+                                <pedal xml:id="pedal-0000000510963302" staff="1" startid="#note-0000000140385160" dir="down" place="below" />
+                              </reg>
+                            </choice>
                             <dynam xml:id="dynam-0000001576619047" place="below" staff="1" startid="#note-0000001828400538">p</dynam>
                             <slur xml:id="slur-0000000456755156" startid="#note-0000001828400538" endid="#note-0000000748097394" curvedir="above" />
                             <tie xml:id="tie-0000000913994628" startid="#note-0000001440703171" endid="#note-0000001530457058" />
                             <hairpin xml:id="hairpin-0000000480671814" staff="1" startid="#note-0000002119833119" endid="#note-0000001827624312" form="cres" place="below" />
-                            <pedal xml:id="pedal-0000000975590823" staff="2" startid="#note-0000001117942458" dir="down" place="below" />
                             <slur xml:id="slur-0000000219984306" startid="#note-0000001117942458" endid="#note-0000000528078044" curvedir="above" />
-                            <pedal xml:id="pedal-0000001039606246" staff="2" startid="#note-0000000365059150" dir="up" place="below" />
-                            <pedal xml:id="pedal-0000001575511528" staff="2" startid="#note-0000000916629468" dir="down" place="below" />
-                            <pedal xml:id="pedal-0000000510963302" staff="1" startid="#note-0000001530457058" dir="up" place="below" />
                         </measure>
                         <measure xml:id="measure-0000001729740154" n="15">
                             <staff xml:id="staff-0000001739016818" n="1">
@@ -1037,17 +1141,28 @@
                                     </beam>
                                 </layer>
                             </staff>
+                            <choice>
+                              <orig>
+                                <pedal xml:id="pedal-0000000668426359" staff="2" startid="#note-0000001448249458" dir="down" place="below" />
+                                <pedal xml:id="pedal-0000001224830254" staff="2" startid="#note-0000001380597715" dir="up" place="below" />
+                                <pedal xml:id="pedal-0000000740540212" staff="2" startid="#note-0000001834898066" dir="down" place="below" />
+                                <pedal xml:id="pedal-0000000472837962" staff="1" startid="#chord-0000000934017785" dir="up" place="below" />
+                              </orig>
+                              <reg>
+                                <pedal xml:id="pedal-0000000668426359" staff="2" startid="#note-0000001448249458" dir="down" place="below" />
+                                <pedal xml:id="pedal-0000001224830254" staff="2" startid="#note-0000001380597715" dir="down" place="below" />
+                                <pedal xml:id="pedal-0000000740540212" staff="2" startid="#note-0000001834898066" dir="down" place="below" />
+                                <pedal xml:id="pedal-0000000472837962" staff="1" startid="#chord-0000000934017785" dir="up" place="below" />
+                              </reg>
+                            </choice>
                             <hairpin xml:id="hairpin-0000000207078811" staff="1" startid="#note-0000001530457058" endid="#note-0000001552353885" form="dim" place="below" />
                             <trill xml:id="trill-0000000770497973" staff="1" startid="#note-0000001682457415" />
                             <slur xml:id="slur-0000000009789039" startid="#note-0000001890331279" endid="#note-0000001402842505" curvedir="above" />
-                            <pedal xml:id="pedal-0000000668426359" staff="2" startid="#note-0000001448249458" dir="down" place="below" />
                             <slur xml:id="slur-0000002067532343" startid="#note-0000001448249458" endid="#note-0000001858620393" curvedir="above" />
-                            <pedal xml:id="pedal-0000001224830254" staff="2" startid="#note-0000001380597715" dir="up" place="below" />
-                            <pedal xml:id="pedal-0000000740540212" staff="2" startid="#note-0000001834898066" dir="down" place="below" />
                             <slur xml:id="slur-0000000204528887" startid="#note-0000001834898066" endid="#note-0000000907921300" curvedir="above" />
-                            <pedal xml:id="pedal-0000000472837962" staff="1" startid="#chord-0000000934017785" dir="up" place="below" />
                         </measure>
                         <sb xml:id="sb-0000000787778588" />
+                        <!-- not displayed or edited -->
                         <measure xml:id="measure-0000001665387671" n="16">
                             <staff xml:id="staff-0000001573767568" n="1">
                                 <layer xml:id="layer-0000001169047276" n="1">
