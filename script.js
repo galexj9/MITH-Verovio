@@ -74,6 +74,7 @@ function playMIDI() {
       instruments: 'acoustic_grand_piano',
       onsuccess: function() {
         var player = MIDI.Player;
+        //player.loadFile is seperate from script.js loadFile()
         player.loadFile("data:audio/midi;base64," + vrvToolkit.renderToMIDI(),
           function() {
 
